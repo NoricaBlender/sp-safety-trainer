@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <title>Mobile 3D Gyro + Joystick</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="startOverlay">
+    <div>
+      <div id="startText">Touch to Start</div>
+      <div id="startSub">Tilt phone to look &bull; Left side to move</div>
+    </div>
+  </div>
+
+  <div id="joyBase"></div>
+  <div id="joyStick"></div>
+
+  <canvas id="c"></canvas>
+
+  <!-- Keep three.min.js beside this file -->
+  <script src="./three.min.js?v=4"></script>
+  <script src="./spyder_data.js?v=4"></script>
+  <script src="./spyder_model.js?v=4"></script>
+  <script src="./scene_outdoor.js?v=4"></script>
+  <script src="./main.js?v=4"></script>
+</body>
+</html>
